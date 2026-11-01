@@ -30,8 +30,8 @@ Requisitos Previos e Instalación
 
 1. Clonar el repositorio
 
-git clone https://github.com/tu-usuario/laya-decision-engine.git
-cd laya-decision-engine
+git clone [https://github.com/wgekko/automatizacion-toma-decisiones.git](https://github.com/wgekko/automatizacion-toma-decisiones.git)
+cd automatizacion-toma-decisiones
 
 2. Crear un entorno virtual (Recomendado)
 
@@ -165,3 +165,12 @@ Excepciones y errores durante la evaluación de registros.
 Exportación y Reportes
 
 Tanto en la pestaña de Evaluación Activa como en el Histórico (SQLite), la aplicación permite exportar los datos analizados a Excel (.xlsx) y CSV (.csv) con métricas ponderadas por nivel de riesgo y severidad.
+
+
+video demo 
+
+
+
+https://github.com/user-attachments/assets/a9f0fb3d-669e-48b5-a2c3-381c12c53bf5
+
+
