@@ -1,0 +1,417 @@
+2026-10-27 01:38:01,472 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-27 01:38:01,670 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual/encoder/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-27 01:38:01,698 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Fencoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-27 01:38:01,717 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual/rl_agent_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-27 01:38:01,718 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-27 01:38:01,721 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual/model.safetensors "HTTP/1.1 302 Found"
+2026-10-27 01:38:01,723 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual/tokenizer/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-27 01:38:01,730 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual/tokenizer/tokenizer.json "HTTP/1.1 302 Found"
+2026-10-27 01:38:01,732 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Fencoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-27 01:38:01,751 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Frl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:38:01,767 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Ftokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:38:01,798 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Frl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:38:01,801 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Ftokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:38:01,940 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/xet-read-token/7b928d828b7b0e022f929d9bd2e44165aa270148 "HTTP/1.1 200 OK"
+2026-10-27 01:38:01,944 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/xet-read-token/7b928d828b7b0e022f929d9bd2e44165aa270148 "HTTP/1.1 200 OK"
+2026-10-27 01:41:22,076 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-27 01:44:34,226 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-27 01:53:05,113 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-27 01:53:17,843 [INFO] Router LAYA cargado exitosamente. Idioma: multilingual, Preload: False
+2026-10-27 01:53:20,199 [ERROR] Error evaluando comentario 'La cartera llegó con un rayón ...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:20,270 [ERROR] Error evaluando comentario 'La campera que compré es de ex...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:20,293 [ERROR] Error evaluando comentario 'El talle de la remera no coinc...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:20,295 [ERROR] Error evaluando comentario 'Los auriculares inalámbricos s...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:22,490 [ERROR] Error evaluando comentario 'Este es mi tercer pedido y sie...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:22,611 [ERROR] Error evaluando comentario 'La app para el celular es muy ...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:22,703 [ERROR] Error evaluando comentario 'El cargador inalámbrico que pe...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:22,744 [ERROR] Error evaluando comentario 'Si no me responden sobre la de...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:24,876 [ERROR] Error evaluando comentario 'Me encantaron los aros, son ta...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:24,947 [ERROR] Error evaluando comentario 'Los precios de los productos t...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:25,083 [ERROR] Error evaluando comentario 'Compré unas zapatillas y, a la...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:25,241 [ERROR] Error evaluando comentario 'Consulté por el estado de mi p...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:27,281 [ERROR] Error evaluando comentario 'El proceso de devolución fue r...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:27,380 [ERROR] Error evaluando comentario 'La página se cuelga constantem...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:27,478 [ERROR] Error evaluando comentario 'Compré un regalo para mi espos...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:27,597 [ERROR] Error evaluando comentario 'El jean que compré se achica m...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:29,516 [ERROR] Error evaluando comentario 'Los accesorios para el celular...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:29,840 [ERROR] Error evaluando comentario 'Es la segunda vez que me manda...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:29,903 [ERROR] Error evaluando comentario 'La sección de ofertas es una e...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:30,220 [ERROR] Error evaluando comentario 'La pulsera inteligente que com...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:31,985 [ERROR] Error evaluando comentario 'El vestido es precioso y la te...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:32,198 [ERROR] Error evaluando comentario 'Tardaron tres semanas en entre...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:32,227 [ERROR] Error evaluando comentario 'El vestido es hermoso y la tel...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:32,771 [ERROR] Error evaluando comentario 'La billetera que pedí es práct...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:34,461 [ERROR] Error evaluando comentario 'Me gusta la variedad de produc...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:34,805 [ERROR] Error evaluando comentario 'Las fotos de los productos son...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:34,980 [ERROR] Error evaluando comentario 'Hace un mes que estoy esperand...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:35,246 [ERROR] Error evaluando comentario 'Excelente atención por WhatsAp...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:36,984 [ERROR] Error evaluando comentario 'La tablet que compré vino sin ...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:37,167 [ERROR] Error evaluando comentario 'El embalaje de los productos t...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:37,520 [ERROR] Error evaluando comentario 'Normal. La ropa está bien, per...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:37,709 [ERROR] Error evaluando comentario 'Los costos de envío internacio...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:39,492 [ERROR] Error evaluando comentario 'Mi experiencia con el soporte ...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:39,757 [ERROR] Error evaluando comentario 'Muy buen precio para el reloj ...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:40,037 [ERROR] Error evaluando comentario 'El carrito de compras pierde l...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:40,219 [ERROR] Error evaluando comentario 'El perfume llegó abierto y con...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:42,043 [ERROR] Error evaluando comentario 'Le compré auriculares a mi hij...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:42,186 [ERROR] Error evaluando comentario 'La app tarda una eternidad en ...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:42,749 [ERROR] Error evaluando comentario 'Si no me devuelven la plata po...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:42,772 [ERROR] Error evaluando comentario 'Los tiempos de entrega dentro ...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:44,616 [ERROR] Error evaluando comentario 'El cinturón es de buena calida...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:44,825 [ERROR] Error evaluando comentario 'Compré dos camisas iguales y u...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:45,436 [ERROR] Error evaluando comentario 'Muy buena experiencia comprand...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:45,584 [ERROR] Error evaluando comentario 'El sistema no me deja aplicar ...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:47,168 [ERROR] Error evaluando comentario 'Los anteojos de sol son hermos...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:47,394 [ERROR] Error evaluando comentario 'Compré un celular y vino desbl...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:48,089 [ERROR] Error evaluando comentario 'El seguimiento del envío estuv...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:48,290 [ERROR] Error evaluando comentario 'La calidad de las telas bajó d...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:49,840 [ERROR] Error evaluando comentario 'El teclado mecánico es una mar...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:49,852 [ERROR] Error evaluando comentario 'El regalo que pedí con envolto...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:50,241 [ERROR] Error evaluando comentario 'Buen catálogo y precios razona...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:53:50,354 [ERROR] Error evaluando comentario 'Me cobraron dos veces la compr...': Unknown format code 's' for object of type 'float'
+2026-10-27 01:57:08,507 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.356s
+2026-10-27 01:57:08,532 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.384s
+2026-10-27 01:57:08,547 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.398s
+2026-10-27 01:57:08,610 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.459s
+2026-10-27 01:57:10,721 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.213s
+2026-10-27 01:57:10,769 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.235s
+2026-10-27 01:57:10,790 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.179s
+2026-10-27 01:57:10,893 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.346s
+2026-10-27 01:57:13,003 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.282s
+2026-10-27 01:57:13,110 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.340s
+2026-10-27 01:57:13,234 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.340s
+2026-10-27 01:57:13,245 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.454s
+2026-10-27 01:57:15,255 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.251s
+2026-10-27 01:57:15,264 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.152s
+2026-10-27 01:57:15,396 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.150s
+2026-10-27 01:57:15,434 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.199s
+2026-10-27 01:57:17,568 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.304s
+2026-10-27 01:57:17,630 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.374s
+2026-10-27 01:57:17,659 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.262s
+2026-10-27 01:57:17,778 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.344s
+2026-10-27 01:57:19,745 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.175s
+2026-10-27 01:57:19,781 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.150s
+2026-10-27 01:57:19,812 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.152s
+2026-10-27 01:57:20,145 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.365s
+2026-10-27 01:57:22,196 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.451s
+2026-10-27 01:57:22,288 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.470s
+2026-10-27 01:57:22,333 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.188s
+2026-10-27 01:57:22,406 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.624s
+2026-10-27 01:57:24,494 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.161s
+2026-10-27 01:57:24,509 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.219s
+2026-10-27 01:57:24,524 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.118s
+2026-10-27 01:57:24,546 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.349s
+2026-10-27 01:57:26,653 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.106s
+2026-10-27 01:57:26,776 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.251s
+2026-10-27 01:57:26,797 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.303s
+2026-10-27 01:57:26,886 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.376s
+2026-10-27 01:57:28,881 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.228s
+2026-10-27 01:57:29,043 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.262s
+2026-10-27 01:57:29,063 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.175s
+2026-10-27 01:57:29,271 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.474s
+2026-10-27 01:57:31,127 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.246s
+2026-10-27 01:57:31,280 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.237s
+2026-10-27 01:57:31,296 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.233s
+2026-10-27 01:57:31,553 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.282s
+2026-10-27 01:57:33,289 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.161s
+2026-10-27 01:57:33,783 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.487s
+2026-10-27 01:57:33,868 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.586s
+2026-10-27 01:57:33,908 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.354s
+2026-10-27 01:57:35,767 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.478s
+2026-10-27 01:57:35,975 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.192s
+2026-10-27 01:57:36,088 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.179s
+2026-10-27 01:57:36,144 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.274s
+2026-10-27 01:58:39,430 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-27 01:58:39,625 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/model.safetensors "HTTP/1.1 302 Found"
+2026-10-27 01:58:39,626 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-27 01:58:39,664 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-27 01:58:39,668 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/rl_agent_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-27 01:58:39,671 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/encoder/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-27 01:58:39,675 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-27 01:58:39,691 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:58:39,694 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/rl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:58:39,700 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/encoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-27 01:58:39,702 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer%2Ftokenizer.json "HTTP/1.1 200 OK"
+2026-10-27 01:58:39,720 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/rl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:58:39,722 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:58:39,731 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/encoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-27 01:58:39,734 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer%2Ftokenizer.json "HTTP/1.1 200 OK"
+2026-10-27 01:58:39,816 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/xet-read-token/7b928d828b7b0e022f929d9bd2e44165aa270148 "HTTP/1.1 200 OK"
+2026-10-27 01:59:08,508 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-27 01:59:09,111 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-27 01:59:09,305 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions/encoder/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-27 01:59:09,330 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Fencoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-27 01:59:09,355 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Fencoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-27 01:59:09,380 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions/rl_agent_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-27 01:59:09,387 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions/tokenizer/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-27 01:59:09,394 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions/tokenizer/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-27 01:59:09,398 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions/model.safetensors "HTTP/1.1 302 Found"
+2026-10-27 01:59:09,410 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Frl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:59:09,419 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Ftokenizer%2Ftokenizer.json "HTTP/1.1 200 OK"
+2026-10-27 01:59:09,428 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Ftokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:59:09,443 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Frl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:59:09,463 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Ftokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-27 01:59:38,097 [INFO] Router LAYA cargado exitosamente. Idioma: multilingual, Preload: True
+2026-10-27 01:59:39,952 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.853s
+2026-10-27 01:59:40,045 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.944s
+2026-10-27 01:59:40,240 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.141s
+2026-10-27 01:59:40,429 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.328s
+2026-10-27 01:59:41,961 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.007s
+2026-10-27 01:59:42,147 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.101s
+2026-10-27 01:59:42,231 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.990s
+2026-10-27 01:59:42,539 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.110s
+2026-10-27 01:59:44,010 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.049s
+2026-10-27 01:59:44,219 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.071s
+2026-10-27 01:59:44,261 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.029s
+2026-10-27 01:59:44,493 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.953s
+2026-10-27 01:59:45,959 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.948s
+2026-10-27 01:59:46,102 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.882s
+2026-10-27 01:59:46,278 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.016s
+2026-10-27 01:59:46,389 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.894s
+2026-10-27 01:59:47,929 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.970s
+2026-10-27 01:59:48,108 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.005s
+2026-10-27 01:59:48,302 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.025s
+2026-10-27 01:59:48,372 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.982s
+2026-10-27 01:59:49,885 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.956s
+2026-10-27 01:59:50,064 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.956s
+2026-10-27 01:59:50,202 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.899s
+2026-10-27 01:59:50,453 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.080s
+2026-10-27 01:59:51,883 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.997s
+2026-10-27 01:59:52,170 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.966s
+2026-10-27 01:59:52,188 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.123s
+2026-10-27 01:59:52,278 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.822s
+2026-10-27 01:59:53,761 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.878s
+2026-10-27 01:59:54,094 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.904s
+2026-10-27 01:59:54,163 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.992s
+2026-10-27 01:59:54,182 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.904s
+2026-10-27 01:59:55,721 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.960s
+2026-10-27 01:59:56,093 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.929s
+2026-10-27 01:59:56,127 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.944s
+2026-10-27 01:59:56,194 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.100s
+2026-10-27 01:59:57,773 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.051s
+2026-10-27 01:59:57,946 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.750s
+2026-10-27 01:59:58,026 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.932s
+2026-10-27 01:59:58,215 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.088s
+2026-10-27 01:59:59,698 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.924s
+2026-10-27 01:59:59,815 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.785s
+2026-10-27 01:59:59,829 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.882s
+2026-10-27 02:00:00,331 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.116s
+2026-10-27 02:00:01,601 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.903s
+2026-10-27 02:00:01,868 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.053s
+2026-10-27 02:00:02,013 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.183s
+2026-10-27 02:00:02,447 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.116s
+2026-10-27 02:00:03,707 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.106s
+2026-10-27 02:00:03,818 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.950s
+2026-10-27 02:00:04,066 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.052s
+2026-10-27 02:00:04,114 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.667s
+2026-10-28 02:21:13,634 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-28 02:21:13,818 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual/encoder/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-28 02:21:13,819 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-28 02:21:13,846 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Fencoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-28 02:21:13,868 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual/tokenizer/tokenizer.json "HTTP/1.1 302 Found"
+2026-10-28 02:21:13,880 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual/rl_agent_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-28 02:21:13,886 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual/model.safetensors "HTTP/1.1 302 Found"
+2026-10-28 02:21:13,889 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual/tokenizer/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-28 02:21:13,912 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Frl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-28 02:21:13,927 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Ftokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-28 02:21:13,946 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Fencoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-28 02:21:13,965 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Frl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-28 02:21:13,992 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/multilingual%2Ftokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-28 02:21:14,160 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/xet-read-token/7b928d828b7b0e022f929d9bd2e44165aa270148 "HTTP/1.1 200 OK"
+2026-10-28 02:21:14,233 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/xet-read-token/7b928d828b7b0e022f929d9bd2e44165aa270148 "HTTP/1.1 200 OK"
+2026-10-28 02:26:30,250 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-28 02:50:43,744 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-28 02:51:07,685 [INFO] Router LAYA cargado exitosamente. Idioma: multilingual, Preload: False
+2026-10-28 02:52:17,800 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-28 02:52:34,132 [INFO] Router LAYA cargado exitosamente. Idioma: multilingual, Preload: False
+2026-10-28 02:52:37,125 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.984s
+2026-10-28 02:52:37,142 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.003s
+2026-10-28 02:52:37,214 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.074s
+2026-10-28 02:52:37,344 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.209s
+2026-10-28 02:52:40,051 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.926s
+2026-10-28 02:52:40,211 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.995s
+2026-10-28 02:52:40,219 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.077s
+2026-10-28 02:52:40,316 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.971s
+2026-10-28 02:52:43,018 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.965s
+2026-10-28 02:52:43,328 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.116s
+2026-10-28 02:52:43,522 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.206s
+2026-10-28 02:52:43,552 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.332s
+2026-10-28 02:52:46,047 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.028s
+2026-10-28 02:52:46,375 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.047s
+2026-10-28 02:52:46,417 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.862s
+2026-10-28 02:52:46,575 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.052s
+2026-10-28 02:52:48,748 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.700s
+2026-10-28 02:52:49,152 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.776s
+2026-10-28 02:52:49,235 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.660s
+2026-10-28 02:52:49,272 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.854s
+2026-10-28 02:52:51,477 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.729s
+2026-10-28 02:52:51,925 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.652s
+2026-10-28 02:52:52,106 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.870s
+2026-10-28 02:52:52,269 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.113s
+2026-10-28 02:52:54,242 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.763s
+2026-10-28 02:52:54,728 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.803s
+2026-10-28 02:52:54,788 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.681s
+2026-10-28 02:52:54,989 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.719s
+2026-10-28 02:52:56,995 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.752s
+2026-10-28 02:52:57,377 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.649s
+2026-10-28 02:52:57,694 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.905s
+2026-10-28 02:52:57,764 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.774s
+2026-10-28 02:52:59,794 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.799s
+2026-10-28 02:53:00,131 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.753s
+2026-10-28 02:53:00,500 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.806s
+2026-10-28 02:53:00,540 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.775s
+2026-10-28 02:53:02,591 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.774s
+2026-10-28 02:53:02,679 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.547s
+2026-10-28 02:53:03,044 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.543s
+2026-10-28 02:53:03,158 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.618s
+2026-10-28 02:53:05,281 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.602s
+2026-10-28 02:53:05,370 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.778s
+2026-10-28 02:53:05,765 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.721s
+2026-10-28 02:53:05,826 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.668s
+2026-10-28 02:53:07,905 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.623s
+2026-10-28 02:53:08,310 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.940s
+2026-10-28 02:53:08,594 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.829s
+2026-10-28 02:53:08,746 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.919s
+2026-10-28 02:53:10,638 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.732s
+2026-10-28 02:53:11,143 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.833s
+2026-10-28 02:53:11,218 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.472s
+2026-10-28 02:53:11,258 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.664s
+2026-10-28 02:53:13,418 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.780s
+2026-10-28 02:53:13,683 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.539s
+2026-10-28 02:53:14,006 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.745s
+2026-10-28 02:53:14,051 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.832s
+2026-10-28 02:53:16,410 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.992s
+2026-10-28 02:53:16,513 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.829s
+2026-10-28 02:53:16,742 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.732s
+2026-10-28 02:53:16,895 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.842s
+2026-10-28 02:53:19,426 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.913s
+2026-10-28 02:53:19,556 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.145s
+2026-10-28 02:53:19,579 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.836s
+2026-10-28 02:53:19,657 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 2.761s
+2026-10-28 02:53:20,508 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 1.080s
+2026-10-28 03:04:56,814 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-28 03:09:40,058 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-28 03:09:59,577 [INFO] Router LAYA cargado exitosamente. Idioma: multilingual, Preload: False
+2026-10-28 03:10:02,884 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.298s
+2026-10-28 03:10:02,930 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.339s
+2026-10-28 03:10:02,940 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.352s
+2026-10-28 03:10:03,044 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.460s
+2026-10-28 03:10:06,097 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.212s
+2026-10-28 03:10:06,255 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.211s
+2026-10-28 03:10:06,291 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.360s
+2026-10-28 03:10:06,389 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.446s
+2026-10-28 03:10:09,246 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.149s
+2026-10-28 03:10:09,537 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.280s
+2026-10-28 03:10:09,812 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.521s
+2026-10-28 03:10:09,927 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.537s
+2026-10-28 03:10:12,683 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.436s
+2026-10-28 03:10:12,726 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.188s
+2026-10-28 03:10:13,162 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.232s
+2026-10-28 03:10:13,188 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.374s
+2026-10-28 03:10:15,770 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.085s
+2026-10-28 03:10:16,310 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.578s
+2026-10-28 03:10:16,512 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.349s
+2026-10-28 03:10:16,539 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.346s
+2026-10-28 03:10:19,018 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.247s
+2026-10-28 03:10:19,519 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.005s
+2026-10-28 03:10:19,583 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.272s
+2026-10-28 03:10:20,068 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.528s
+2026-10-28 03:10:22,257 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.238s
+2026-10-28 03:10:23,179 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.592s
+2026-10-28 03:10:23,258 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.735s
+2026-10-28 03:10:23,283 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.213s
+2026-10-28 03:10:25,643 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.384s
+2026-10-28 03:10:26,368 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.188s
+2026-10-28 03:10:26,414 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.131s
+2026-10-28 03:10:26,446 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.188s
+2026-10-28 03:10:29,148 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.504s
+2026-10-28 03:10:29,514 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.098s
+2026-10-28 03:10:29,534 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.088s
+2026-10-28 03:10:29,882 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.513s
+2026-10-28 03:10:32,412 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.263s
+2026-10-28 03:10:32,651 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.136s
+2026-10-28 03:10:32,887 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.352s
+2026-10-28 03:10:33,197 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.314s
+2026-10-28 03:10:35,693 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.281s
+2026-10-28 03:10:36,224 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.334s
+2026-10-28 03:10:36,238 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.587s
+2026-10-28 03:10:36,403 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.205s
+2026-10-28 03:10:39,311 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.617s
+2026-10-28 03:10:39,849 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.623s
+2026-10-28 03:10:40,031 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.789s
+2026-10-28 03:10:40,618 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 4.214s
+2026-10-28 03:10:44,146 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 4.834s
+2026-10-28 03:10:44,221 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 4.372s
+2026-10-28 03:10:44,436 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 3.817s
+2026-10-28 03:10:44,658 [INFO] Predicción exitosa | Modelo: multilingual | Tiempo: 4.627s
+2026-10-31 01:31:49,731 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 01:38:11,416 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 01:50:37,908 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 01:52:44,239 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:12:03,646 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:12:19,019 [INFO] Router LAYA cargado. Idioma: automático, Preload: False
+2026-10-31 02:12:45,320 [INFO] Fallback activado: 'other' mapeado a 'urgencias'.
+2026-10-31 02:12:47,288 [INFO] Fallback activado: 'other' mapeado a 'facturacion_os'.
+2026-10-31 02:12:50,153 [INFO] Fallback activado: 'other' mapeado a 'urgencias'.
+2026-10-31 02:12:59,425 [INFO] Fallback activado: 'other' mapeado a 'urgencias'.
+2026-10-31 02:13:02,688 [INFO] Fallback activado: 'other' mapeado a 'urgencias'.
+2026-10-31 02:13:19,925 [INFO] Fallback activado: 'other' mapeado a 'urgencias'.
+2026-10-31 02:16:17,888 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:16:35,517 [INFO] Router LAYA cargado. Idioma: automático, Preload: False
+2026-10-31 02:17:07,053 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:17:21,219 [INFO] Router LAYA cargado. Idioma: automático, Preload: False
+2026-10-31 02:26:49,417 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:27:09,418 [INFO] Router LAYA cargado. Idioma: automático, Preload: False
+2026-10-31 02:32:09,639 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:32:27,776 [INFO] Router LAYA cargado. Idioma: automático, Preload: False
+2026-10-31 02:34:11,018 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:34:24,927 [INFO] Router LAYA cargado. Idioma: automático, Preload: False
+2026-10-31 02:41:40,367 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:41:59,342 [INFO] Router LAYA cargado. Idioma: automático, Preload: False
+2026-10-31 02:50:41,437 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:50:59,307 [INFO] Router LAYA cargado. Idioma: automático, Preload: False
+2026-10-31 02:55:14,796 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:55:15,051 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 02:55:15,052 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-31 02:55:15,096 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 02:55:15,097 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 02:55:15,098 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/encoder/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 02:55:15,121 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/rl_agent_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 02:55:15,143 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer%2Ftokenizer.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:15,153 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/encoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:15,155 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/rl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:15,157 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:15,187 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer%2Ftokenizer.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:15,190 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/rl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:15,193 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/encoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:15,200 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:15,358 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/xet-read-token/7b928d828b7b0e022f929d9bd2e44165aa270148 "HTTP/1.1 200 OK"
+2026-10-31 02:55:55,319 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:55:57,810 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 02:55:58,995 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions/model.safetensors "HTTP/1.1 302 Found"
+2026-10-31 02:55:59,061 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions/encoder/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 02:55:59,069 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions/rl_agent_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 02:55:59,072 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions/tokenizer/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 02:55:59,080 [INFO] HTTP Request: HEAD https://huggingface.co/convaiinnovations/laya/resolve/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions/tokenizer/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-31 02:55:59,091 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Fencoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:59,095 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Frl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:59,111 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Ftokenizer%2Ftokenizer.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:59,115 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Ftokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:59,128 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Fencoder%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:59,146 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Ftokenizer%2Ftokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-31 02:55:59,149 [INFO] HTTP Request: GET https://huggingface.co/api/resolve-cache/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/typed-decisions%2Frl_agent_config.json "HTTP/1.1 200 OK"
+2026-10-31 02:56:29,098 [INFO] Router LAYA cargado. Idioma: automático, Preload: True
+2026-10-31 03:18:45,214 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 03:19:10,091 [INFO] Router LAYA cargado. Idioma: automático, Preload: False
+2026-10-31 03:40:30,328 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-10-31 03:40:44,996 [INFO] Router LAYA cargado. Idioma: automático, Preload: False
+2026-11-01 01:41:59,786 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-11-01 01:42:23,909 [INFO] Router LAYA cargado. Idioma: automático, Preload: False
+2026-11-01 01:43:07,728 [INFO] Fallback activado: 'other' mapeado a 'urgencias'.
+2026-11-01 01:43:11,994 [INFO] Fallback activado: 'other' mapeado a 'facturacion_os'.
+2026-11-01 01:43:16,509 [INFO] Fallback activado: 'other' mapeado a 'urgencias'.
+2026-11-01 01:43:32,275 [INFO] Fallback activado: 'other' mapeado a 'urgencias'.
+2026-11-01 01:43:37,907 [INFO] Fallback activado: 'other' mapeado a 'urgencias'.
+2026-11-01 01:44:05,282 [INFO] Fallback activado: 'other' mapeado a 'urgencias'.
+2026-11-01 01:44:57,017 [INFO] HTTP Request: GET https://huggingface.co/api/models/convaiinnovations/laya/revision/main "HTTP/1.1 200 OK"
+2026-11-01 01:45:01,082 [INFO] Router LAYA cargado. Idioma: English, Preload: False
